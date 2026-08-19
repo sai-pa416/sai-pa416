@@ -16,8 +16,6 @@
 <table>
   <tr>
     <td width="40%" align="center">
-      <img src="assets/avatar.svg" width="210" alt="Anime avatar"/>
-      <br/>
       <b>sai-pa416</b>
       <br/>
       <sub>Software Developer · Cyberpunk Edition</sub>
