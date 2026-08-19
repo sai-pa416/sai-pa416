@@ -1,0 +1,314 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" width="1600" height="400" role="img" aria-label="Cyberpunk anime banner — developer coding at night">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B0E14"/>
+      <stop offset="1" stop-color="#141A26"/>
+    </linearGradient>
+    <radialGradient id="cityGlow" cx="0.72" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="monGlow">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1600" height="400" fill="url(#sky)"/>
+  <rect width="1600" height="400" fill="url(#cityGlow)"/>
+
+  <!-- moon -->
+  <circle cx="1330" cy="92" r="110" fill="url(#moonGlow)"/>
+  <circle cx="1330" cy="92" r="48" fill="#E9EDFF" opacity="0.9"/>
+  <circle cx="1316" cy="82" r="9" fill="#C6D0F5" opacity="0.7"/>
+  <circle cx="1342" cy="102" r="6" fill="#C6D0F5" opacity="0.6"/>
+  <circle cx="1326" cy="108" r="4" fill="#C6D0F5" opacity="0.5"/>
+  <circle cx="1330" cy="92" r="58" fill="none" stroke="#8B5CF6" stroke-width="2" opacity="0.45"/>
+
+  <!-- twinkling stars -->
+  <g fill="#A371F7">
+    <circle cx="80" cy="60" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="120" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="45" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="90" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="40" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.4s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="70" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="110" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.7s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="50" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.3s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="95" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="5s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="40" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.9s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1230" cy="120" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1450" cy="50" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1520" cy="110" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.6s" begin="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1580" cy="60" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" begin="1.4s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#38BDF8">
+    <circle cx="140" cy="150" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.3s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="290" cy="180" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="150" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.9s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="140" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.7s" begin="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="160" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="1420" cy="150" r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="0.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- FAR CITY LAYER -->
+  <g fill="#10151F">
+    <rect x="0" y="210" width="60" height="90"/>
+    <rect x="70" y="180" width="50" height="120"/>
+    <rect x="130" y="230" width="70" height="70"/>
+    <rect x="210" y="190" width="45" height="110"/>
+    <rect x="265" y="160" width="60" height="140"/>
+    <rect x="335" y="220" width="55" height="80"/>
+    <rect x="400" y="200" width="70" height="100"/>
+    <rect x="480" y="170" width="50" height="130"/>
+    <rect x="540" y="230" width="60" height="70"/>
+    <rect x="610" y="190" width="65" height="110"/>
+    <rect x="685" y="150" width="55" height="150"/>
+    <rect x="750" y="220" width="70" height="80"/>
+    <rect x="830" y="195" width="60" height="105"/>
+    <rect x="900" y="235" width="70" height="65"/>
+    <rect x="980" y="175" width="55" height="125"/>
+    <rect x="1045" y="215" width="65" height="85"/>
+    <rect x="1120" y="185" width="60" height="115"/>
+    <rect x="1190" y="160" width="50" height="140"/>
+    <rect x="1250" y="225" width="70" height="75"/>
+    <rect x="1330" y="195" width="60" height="105"/>
+    <rect x="1400" y="170" width="55" height="130"/>
+    <rect x="1465" y="210" width="65" height="90"/>
+    <rect x="1540" y="190" width="60" height="110"/>
+  </g>
+
+  <!-- MID CITY LAYER with neon windows -->
+  <g fill="#0D1220">
+    <rect x="30" y="150" width="70" height="150"/>
+    <rect x="130" y="130" width="55" height="170"/>
+    <rect x="215" y="165" width="60" height="135"/>
+    <rect x="305" y="140" width="70" height="160"/>
+    <rect x="405" y="175" width="55" height="125"/>
+    <rect x="490" y="145" width="65" height="155"/>
+    <rect x="585" y="170" width="60" height="130"/>
+    <rect x="675" y="125" width="70" height="175"/>
+    <rect x="775" y="155" width="55" height="145"/>
+    <rect x="860" y="175" width="60" height="125"/>
+    <rect x="950" y="135" width="65" height="165"/>
+    <rect x="1045" y="160" width="70" height="140"/>
+    <rect x="1145" y="130" width="55" height="170"/>
+    <rect x="1230" y="170" width="60" height="130"/>
+    <rect x="1320" y="145" width="65" height="155"/>
+    <rect x="1415" y="165" width="70" height="135"/>
+    <rect x="1515" y="140" width="55" height="160"/>
+  </g>
+  <g fill="#8B5CF6" opacity="0.7">
+    <rect x="140" y="145" width="10" height="12"/><rect x="160" y="145" width="10" height="12"/>
+    <rect x="140" y="170" width="10" height="12"/><rect x="160" y="170" width="10" height="12"/>
+    <rect x="140" y="195" width="10" height="12"/><rect x="160" y="195" width="10" height="12"/>
+    <rect x="225" y="180" width="10" height="12"/><rect x="245" y="180" width="10" height="12"/>
+    <rect x="225" y="205" width="10" height="12"/>
+    <rect x="315" y="155" width="10" height="12"/><rect x="335" y="155" width="10" height="12"/>
+    <rect x="355" y="155" width="10" height="12"/><rect x="315" y="180" width="10" height="12"/>
+    <rect x="500" y="160" width="10" height="12"/><rect x="520" y="160" width="10" height="12"/>
+    <rect x="500" y="185" width="10" height="12"/><rect x="540" y="185" width="10" height="12"/>
+    <rect x="685" y="140" width="10" height="12"/><rect x="705" y="140" width="10" height="12"/>
+    <rect x="725" y="140" width="10" height="12"/><rect x="685" y="165" width="10" height="12"/>
+    <rect x="705" y="165" width="10" height="12"/><rect x="960" y="150" width="10" height="12"/>
+    <rect x="980" y="150" width="10" height="12"/><rect x="960" y="175" width="10" height="12"/>
+    <rect x="1155" y="145" width="10" height="12"/><rect x="1175" y="145" width="10" height="12"/>
+    <rect x="1155" y="170" width="10" height="12"/><rect x="1195" y="170" width="10" height="12"/>
+    <rect x="1330" y="160" width="10" height="12"/><rect x="1350" y="160" width="10" height="12"/>
+    <rect x="1370" y="160" width="10" height="12"/>
+    <rect x="1425" y="180" width="10" height="12"/><rect x="1445" y="180" width="10" height="12"/>
+    <rect x="1525" y="155" width="10" height="12"/><rect x="1545" y="155" width="10" height="12"/>
+  </g>
+  <g fill="#38BDF8" opacity="0.6">
+    <rect x="415" y="190" width="10" height="12"/><rect x="435" y="190" width="10" height="12"/>
+    <rect x="870" y="190" width="10" height="12"/><rect x="890" y="190" width="10" height="12"/>
+    <rect x="1240" y="185" width="10" height="12"/><rect x="1260" y="185" width="10" height="12"/>
+  </g>
+  <g fill="#F472B6" opacity="0.7">
+    <rect x="35" y="165" width="10" height="12"/><rect x="55" y="165" width="10" height="12"/>
+    <rect x="595" y="185" width="10" height="12"/><rect x="615" y="185" width="10" height="12"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="160" y="145" width="10" height="12" fill="#38BDF8"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" begin="0.5s" repeatCount="indefinite"/></rect>
+    <rect x="725" y="140" width="10" height="12" fill="#A371F7"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.8s" begin="1.4s" repeatCount="indefinite"/></rect>
+    <rect x="870" y="190" width="10" height="12" fill="#38BDF8"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.6s" begin="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="1240" y="185" width="10" height="12" fill="#38BDF8"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.1s" begin="1.7s" repeatCount="indefinite"/></rect>
+    <rect x="500" y="185" width="10" height="12" fill="#F472B6"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.4s" begin="0.2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- NEAR CITY LAYER (rooftop neon bars) -->
+  <g fill="#0A0E16">
+    <rect x="0" y="210" width="120" height="90"/>
+    <rect x="150" y="225" width="90" height="75"/>
+    <rect x="270" y="240" width="70" height="60"/>
+    <rect x="370" y="255" width="110" height="45"/>
+    <rect x="510" y="235" width="90" height="65"/>
+    <rect x="630" y="250" width="80" height="50"/>
+    <rect x="940" y="245" width="100" height="55"/>
+    <rect x="1070" y="230" width="80" height="70"/>
+    <rect x="1180" y="250" width="90" height="50"/>
+    <rect x="1300" y="220" width="110" height="80"/>
+    <rect x="1440" y="245" width="80" height="55"/>
+    <rect x="1550" y="230" width="50" height="70"/>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="0" y="210" width="120" height="4" fill="#8B5CF6"/>
+    <rect x="150" y="225" width="90" height="4" fill="#38BDF8"/>
+    <rect x="270" y="240" width="70" height="4" fill="#A371F7"/>
+    <rect x="370" y="255" width="110" height="4" fill="#F472B6"/>
+    <rect x="510" y="235" width="90" height="4" fill="#8B5CF6"/>
+    <rect x="630" y="250" width="80" height="4" fill="#38BDF8"/>
+    <rect x="940" y="245" width="100" height="4" fill="#A371F7"/>
+    <rect x="1070" y="230" width="80" height="4" fill="#F472B6"/>
+    <rect x="1180" y="250" width="90" height="4" fill="#8B5CF6"/>
+    <rect x="1300" y="220" width="110" height="4" fill="#38BDF8"/>
+    <rect x="1440" y="245" width="80" height="4" fill="#A371F7"/>
+    <rect x="1550" y="230" width="50" height="4" fill="#F472B6"/>
+  </g>
+
+  <!-- floor / street -->
+  <rect x="0" y="300" width="1600" height="100" fill="#0A0E16"/>
+  <rect x="0" y="300" width="1600" height="3" fill="#1B2230"/>
+  <rect x="0" y="386" width="1600" height="3" fill="#8B5CF6" opacity="0.8" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.8;0.4;0.8" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- monitor glow wash -->
+  <rect x="500" y="160" width="620" height="240" fill="url(#monGlow)"/>
+
+  <!-- desk -->
+  <rect x="380" y="336" width="840" height="10" rx="3" fill="#161B22" stroke="#1F2631"/>
+  <rect x="380" y="346" width="840" height="8" rx="3" fill="#10151F"/>
+
+  <!-- CENTER MONITOR -->
+  <g filter="url(#glow)">
+    <rect x="660" y="210" width="260" height="128" rx="6" fill="#0B0E14" stroke="#8B5CF6" stroke-width="2"/>
+  </g>
+  <rect x="664" y="214" width="252" height="120" rx="4" fill="#0D1220"/>
+  <!-- editor sidebar -->
+  <rect x="670" y="220" width="56" height="108" fill="#0B0E14" stroke="#1B2230"/>
+  <rect x="678" y="228" width="40" height="6" rx="1" fill="#232B38"/>
+  <rect x="678" y="240" width="24" height="6" rx="1" fill="#232B38"/>
+  <rect x="678" y="252" width="34" height="6" rx="1" fill="#232B38"/>
+  <!-- code lines -->
+  <g fill="#A371F7" opacity="0.85">
+    <rect x="734" y="226" width="60" height="6" rx="1"/>
+    <rect x="734" y="238" width="90" height="6" rx="1"/>
+    <rect x="746" y="250" width="70" height="6" rx="1"/>
+    <rect x="746" y="262" width="110" height="6" rx="1"/>
+    <rect x="758" y="274" width="80" height="6" rx="1"/>
+  </g>
+  <g fill="#38BDF8" opacity="0.8">
+    <rect x="734" y="286" width="120" height="6" rx="1"/>
+    <rect x="746" y="298" width="90" height="6" rx="1"/>
+    <rect x="734" y="310" width="60" height="6" rx="1"/>
+  </g>
+  <rect x="734" y="296" width="26" height="6" rx="1" fill="#F472B6" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.1;0.9" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <!-- in-monitor scan beam -->
+  <rect x="664" y="214" width="252" height="3" fill="#38BDF8" opacity="0.5">
+    <animate attributeName="y" values="214;332;214" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.15;0.5" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- LEFT MONITOR -->
+  <g transform="rotate(-6 520 250)" filter="url(#soft)">
+    <rect x="440" y="260" width="150" height="82" rx="5" fill="#0B0E14" stroke="#38BDF8" stroke-width="2"/>
+  </g>
+  <g transform="rotate(-6 520 250)">
+    <rect x="445" y="265" width="140" height="72" rx="3" fill="#0D1220"/>
+    <rect x="453" y="273" width="90" height="6" rx="1" fill="#38BDF8" opacity="0.8"/>
+    <rect x="453" y="285" width="120" height="6" rx="1" fill="#8B5CF6" opacity="0.8"/>
+    <rect x="453" y="297" width="70" height="6" rx="1" fill="#38BDF8" opacity="0.8"/>
+    <rect x="453" y="309" width="100" height="6" rx="1" fill="#A371F7" opacity="0.8"/>
+  </g>
+  <rect x="500" y="342" width="30" height="6" fill="#10151F"/>
+
+  <!-- RIGHT MONITOR -->
+  <g transform="rotate(6 1100 250)" filter="url(#soft)">
+    <rect x="1010" y="260" width="150" height="82" rx="5" fill="#0B0E14" stroke="#38BDF8" stroke-width="2"/>
+  </g>
+  <g transform="rotate(6 1100 250)">
+    <rect x="1015" y="265" width="140" height="72" rx="3" fill="#0D1220"/>
+    <rect x="1023" y="273" width="70" height="6" rx="1" fill="#8B5CF6" opacity="0.8"/>
+    <rect x="1023" y="285" width="110" height="6" rx="1" fill="#F472B6" opacity="0.8"/>
+    <rect x="1023" y="297" width="90" height="6" rx="1" fill="#A371F7" opacity="0.8"/>
+    <rect x="1023" y="309" width="60" height="6" rx="1" fill="#38BDF8" opacity="0.8"/>
+  </g>
+  <rect x="1085" y="342" width="30" height="6" fill="#10151F"/>
+
+  <!-- keyboard -->
+  <rect x="560" y="354" width="330" height="12" rx="3" fill="#141A26" stroke="#232B38"/>
+  <rect x="575" y="356" width="300" height="8" rx="2" fill="#1B2230"/>
+  <circle cx="872" cy="360" r="2.5" fill="#F472B6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- CHARACTER (anime silhouette, backlit by monitors) -->
+  <g>
+    <!-- shoulders / jacket -->
+    <path d="M520 336 Q560 288 600 300 L600 336 Z" fill="#151B27"/>
+    <path d="M600 300 Q640 288 680 336 L600 336 Z" fill="#10151F"/>
+    <path d="M560 300 Q570 294 588 300" stroke="#38BDF8" stroke-width="3" fill="none" opacity="0.8"/>
+    <!-- neck -->
+    <rect x="588" y="296" width="22" height="26" rx="8" fill="#E8B79B"/>
+    <!-- head -->
+    <ellipse cx="600" cy="280" rx="34" ry="34" fill="#F6C9AB"/>
+    <!-- hair (anime spikes, backlit) -->
+    <path d="M566 268 Q564 222 596 230 Q600 216 606 230 Q638 222 636 268 Q600 258 566 268 Z" fill="#241F33"/>
+    <path d="M568 244 Q586 232 600 234" stroke="#A371F7" stroke-width="2.5" fill="none" opacity="0.9"/>
+    <path d="M634 246 Q620 234 610 234" stroke="#A371F7" stroke-width="2.5" fill="none" opacity="0.9"/>
+    <!-- neon headphone arc -->
+    <path d="M566 276 Q600 306 634 276" stroke="#8B5CF6" stroke-width="4" fill="none" filter="url(#glow)"/>
+    <rect x="556" y="266" width="12" height="22" rx="5" fill="#1B2230" stroke="#8B5CF6" stroke-width="1.5"/>
+    <rect x="632" y="266" width="12" height="22" rx="5" fill="#1B2230" stroke="#8B5CF6" stroke-width="1.5"/>
+    <!-- rim light on head -->
+    <path d="M570 262 Q574 244 590 238" stroke="#38BDF8" stroke-width="2.5" fill="none" opacity="0.8"/>
+  </g>
+
+  <!-- title -->
+  <g filter="url(#glow)">
+    <text x="800" y="78" text-anchor="middle" font-family="'Courier New', monospace" font-size="58" font-weight="bold" letter-spacing="10" fill="#E9EDFF">
+      sai-pa416
+      <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="800" y="122" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" font-weight="bold" letter-spacing="14" fill="#38BDF8">
+      CYBERPUNK DEVELOPER
+    </text>
+    <text x="800" y="150" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" letter-spacing="6" fill="#A371F7">
+      &gt; whoami // full-stack-in-progress
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <!-- blinking cursor block -->
+  <rect x="958" y="140" width="10" height="16" fill="#38BDF8">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- HUD corner brackets -->
+  <g stroke="#38BDF8" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M18 52 V18 H52"/>
+    <path d="M1548 52 V18 H1582"/>
+    <path d="M18 348 V382 H52"/>
+    <path d="M1548 348 V382 H1582"/>
+  </g>
+
+  <!-- scan beam sweeping down -->
+  <rect x="0" y="-80" width="1600" height="80" fill="#8B5CF6" opacity="0.05">
+    <animate attributeName="y" values="-80;400;-80" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
