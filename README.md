@@ -7,26 +7,10 @@
   3. Your profile page will show it instantly (see SETUP.md)
 ============================================================ -->
 
-<!-- ⛏️ GRASS BLOCK BANNER -->
-🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
-🟩🟩🟩🟢🟩🟩🟩🟩🟩🟩🟩🟩🟢🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟢🟩🟩🟩🟩🟩
-🟩🟢🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟢🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟢🟩
-🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫🟫
-🟫🟧🟨🟫🟫🟧🟫🟫🟫🟨🟫🟫🟧🟫🟫🟫🟧🟨🟫🟫🟫🟧🟫🟫🟫🟨🟫🟫🟧🟫
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬛⬜🟦⬛⬛⬜⬛🟦⬛⬛⬜⬛⬛⬜🟦⬛⬛⬜⬛🟦⬛⬛⬜⬛⬛⬜⬛🟦⬛⬛
-
-<!-- 🧟 CREEPER HEAD -->
-🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
-🟩🟩⬛⬛⬛⬛🟩🟩🟩🟩⬛⬛⬛⬛🟩🟩🟩🟩🟩🟩
-🟩🟩⬛⬛⬛⬛🟩🟩🟩🟩⬛⬛⬛⬛🟩🟩🟩🟩🟩🟩
-🟩🟩⬛⬛⬛⬛🟩🟩🟩🟩⬛⬛⬛⬛🟩🟩🟩🟩🟩🟩
-🟩⬛🟩⬛⬛🟩⬛🟩🟩⬛🟩⬛⬛🟩⬛🟩🟩🟩🟩🟩
-🟩⬛🟩⬛⬛🟩⬛🟩🟩⬛🟩⬛⬛🟩⬛🟩🟩🟩🟩🟩
-🟩⬛🟩⬛⬛🟩⬛🟩🟩⬛🟩⬛⬛🟩⬛🟩🟩🟩🟩🟩
-🟩⬛🟩🟩🟩🟩⬛🟩🟩⬛🟩🟩🟩🟩⬛🟩🟩🟩🟩🟩
-⬛🟩🟩⬛⬛⬛⬛🟩🟩⬛🟩🟩⬛⬛⬛⬛🟩🟩🟩🟩
-⬛⬛⬛🟩🟩🟩🟩⬛⬛⬛⬛⬛🟩🟩🟩🟩⬛⬛⬛⬛
+<!-- 🎨 ANIMATED BANNER (SVG — animates in your browser) -->
+<p align="center">
+  <img src="assets/banner.svg" alt="Animated Minecraft banner for sai-pa416" width="800"/>
+</p>
 
 <!-- 🏷️ NAME + TYPING ANIMATION (Press Start 2P pixel font) -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=24&duration=4000&pause=900&color=5FBF3E&center=true&vCenter=true&width=800&height=50&lines=HELLO+THERE!+%F0%9F%91%8B;I'M+SAI+-+BLOCK+BY+BLOCK;MINING+CODE+IN+GITHUB;BUGS%3F+NEVER+HEARD+OF+'EM;PRESS+START+TO+CONTINUE...)](https://git.io/typing-svg)
@@ -61,6 +45,15 @@
 ## 🗺️ Mining Map
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sai-pa416&theme=react-dark&bg_color=0b0b0b&hide_border=true&color=5fbf3e&line=ffd83b&point=ffd83b&area=true&area_color=5fbf3e&radius=8)](https://github.com/sai-pa416)
+
+---
+
+<!-- ⚔️ SKILLS / XP BARS (animated SVG) -->
+## ⚔️ Skills & XP Bars
+
+<p align="center">
+  <img src="assets/xp.svg" alt="Animated skill XP bars" width="700"/>
+</p>
 
 ---
 

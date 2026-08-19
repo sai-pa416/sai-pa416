@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="Animated skill XP bars">
+  <rect width="900" height="380" rx="14" fill="#0b0b0b"/>
+  <rect width="900" height="380" rx="14" fill="none" stroke="#5fbf3e" stroke-width="2"/>
+
+  <text x="450" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" font-weight="bold" letter-spacing="6" fill="#ffd83b">
+    SKILLS — XP BARS
+    <animate attributeName="opacity" values="1;0.6;1" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- row 1: BLOCK BREAKING (JAVA) 65% -->
+  <text x="52" y="112" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#c9d1d9">BLOCK BREAKING (JAVA)</text>
+  <rect x="70" y="96" width="700" height="24" rx="12" fill="#1c1c1c"/>
+  <rect x="70" y="96" width="0" height="24" rx="12" fill="#5fbf3e">
+    <animate attributeName="width" from="0" to="455" dur="1.6s" begin="0.2s" fill="freeze"/>
+  </rect>
+  <text x="792" y="112" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#ffd83b" opacity="0">
+    65%
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.7s" fill="freeze"/>
+  </text>
+
+  <!-- row 2: REDSTONE (SYSTEMS) 80% -->
+  <text x="52" y="156" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#c9d1d9">REDSTONE (SYSTEMS)</text>
+  <rect x="70" y="140" width="700" height="24" rx="12" fill="#1c1c1c"/>
+  <rect x="70" y="140" width="0" height="24" rx="12" fill="#5fbf3e">
+    <animate attributeName="width" from="0" to="560" dur="1.6s" begin="0.4s" fill="freeze"/>
+  </rect>
+  <text x="792" y="156" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#ffd83b" opacity="0">
+    80%
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.9s" fill="freeze"/>
+  </text>
+
+  <!-- row 3: CRAFTING (BUILD) 90% -->
+  <text x="52" y="200" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#c9d1d9">CRAFTING (BUILD)</text>
+  <rect x="70" y="184" width="700" height="24" rx="12" fill="#1c1c1c"/>
+  <rect x="70" y="184" width="0" height="24" rx="12" fill="#ffd83b">
+    <animate attributeName="width" from="0" to="630" dur="1.6s" begin="0.6s" fill="freeze"/>
+  </rect>
+  <text x="792" y="200" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#ffd83b" opacity="0">
+    90%
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.1s" fill="freeze"/>
+  </text>
+
+  <!-- row 4: ENCHANTING (UI/UX) 75% -->
+  <text x="52" y="244" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#c9d1d9">ENCHANTING (UI/UX)</text>
+  <rect x="70" y="228" width="700" height="24" rx="12" fill="#1c1c1c"/>
+  <rect x="70" y="228" width="0" height="24" rx="12" fill="#5fbf3e">
+    <animate attributeName="width" from="0" to="525" dur="1.6s" begin="0.8s" fill="freeze"/>
+  </rect>
+  <text x="792" y="244" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#ffd83b" opacity="0">
+    75%
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.3s" fill="freeze"/>
+  </text>
+
+  <!-- row 5: SURVIVING (DEBUGGING) 40% -->
+  <text x="52" y="288" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#c9d1d9">SURVIVING (DEBUGGING)</text>
+  <rect x="70" y="272" width="700" height="24" rx="12" fill="#1c1c1c"/>
+  <rect x="70" y="272" width="0" height="24" rx="12" fill="#5fbf3e">
+    <animate attributeName="width" from="0" to="280" dur="1.6s" begin="1s" fill="freeze"/>
+  </rect>
+  <text x="792" y="288" text-anchor="end" font-family="'Courier New', monospace" font-size="18" fill="#ffd83b" opacity="0">
+    40%
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.5s" fill="freeze"/>
+  </text>
+
+  <text x="450" y="340" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#6b6b6b">MAX LEVEL: GITHUB CONTRIBUTOR — COMING SOON</text>
+</svg>
