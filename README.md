@@ -1,26 +1,26 @@
 <!-- ════════════════════════════════════════════════════════════
-   CYBERPUNK ANIME PROFILE — github.com/sai-pa416
+   ONE PIECE PROFILE — github.com/sai-pa416
    ✏️ 1) Edit your name / role / bio in the sidebar below.
-   ✏️ 2) Update the Skills pills to your real stack.
+   ✏️ 2) Update the Devil Fruit powers (skills) to your real stack.
    ✏️ 3) Add Pinned Repo cards once you have repositories.
    ════════════════════════════════════════════════════════════ -->
 
-<!-- 🏙️ BANNER — animated cyberpunk anime scene -->
+<!-- 🏴‍☠️ BANNER — animated One Piece scene -->
 <p align="center">
-  <img src="assets/banner.svg" alt="Cyberpunk anime banner" width="900"/>
+  <img src="assets/banner.svg" alt="One Piece banner" width="900"/>
 </p>
 
 # sai-pa416
 
-<!-- 👤 SIDEBAR + STATS DASHBOARD -->
+<!-- 👒 SIDEBAR + STATS DASHBOARD -->
 <table>
   <tr>
     <td width="40%" align="center">
       <b>sai-pa416</b>
       <br/>
-      <sub>Software Developer · Cyberpunk Edition</sub>
+      <sub>Software Developer · Straw Hat Crew</sub>
       <br/>
-      <sub>Turning ideas into code, one commit at a time.</sub>
+      <sub>I'm gonna be the King of the Developers!</sub>
       <br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
       <br/>
@@ -38,15 +38,15 @@
   </tr>
 </table>
 
-<!-- 📊 CONTRIBUTION HEATMAP -->
-## 📊 Contribution Heatmap
+<!-- 🗺️ GRAND LINE MAP (contribution heatmap) -->
+## 🗺️ Grand Line Map
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sai-pa416&theme=react-dark&bg_color=0d1117&hide_border=true&color=a371f7&line=8b5cf6&point=38bdf8&area=true&area_color=8b5cf6&radius=8" width="900" alt="Contribution heatmap"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sai-pa416&theme=react-dark&bg_color=0d1117&hide_border=true&color=F7C948&line=E63946&point=48CAE4&area=true&area_color=F7C948&radius=8" width="900" alt="Contribution heatmap"/>
 </p>
 
-<!-- 🧬 SKILLS PILLS -->
-## 🧬 Skills
+<!-- ⚔️ DEVIL FRUIT POWERS (skills) -->
+## ⚔️ Devil Fruit Powers
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
@@ -63,9 +63,9 @@
 </p>
 
 <!-- 📌 PINNED REPOSITORIES -->
-## 📌 Pinned Repositories
+## 📌 Straw Hat Fleet (Pinned Repos)
 
-> Loading repositories... check back after my first push! 🚀
+> Still recruiting crew members... my fleet is just setting sail! 🚀
 
 <!--
   Add pinned cards once you have repos:
@@ -75,20 +75,20 @@
   (add a "Generate pin card" step to .github/workflows/update-cards.yml)
 -->
 
-<!-- ⚡ RECENT ACTIVITY FEED -->
-## ⚡ Recent Activity
+<!-- 📜 BOUNTY LOG (recent activity) -->
+## 📜 Bounty Log (Recent Activity)
 
-> - 🎯 Pushed commits to `sai-pa416/sai-pa416` — profile setup
-> - 🎨 Restyled README — cyberpunk theme
-> - ⚙️ Workflow ran — generated stats cards
+> - 🎯 Pushed commits to `sai-pa416/sai-pa416` — set sail
+> - 🎨 Restyled README — One Piece theme
+> - ⚙️ Workflow ran — refreshed stats
 
 <details>
-  <summary><b>Terminal log</b></summary>
+  <summary><b>Marine transmission log</b></summary>
 
   ```
   [15:04] ✔ workflow_dispatch  update-cards.yml  main
-  [14:02] ✔ push  main  Restyle profile
-  [12:30] ✔ push  main  Add profile README
+  [14:02] ✔ push  main  Set sail
+  [12:30] ✔ push  main  First bounty posted
   ```
 
 </details>
@@ -96,5 +96,5 @@
 ---
 
 <p align="center">
-  <sub>⚡ Neon-lit in the year 2077 · built with ❤️ and too much coffee</sub>
+  <sub>🏴‍☠️ One Piece × Code · Zolo-level determination, no bugs on my Grand Line</sub>
 </p>
