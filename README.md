@@ -7,7 +7,7 @@
 
 <!-- 🏴‍☠️ BANNER — animated One Piece scene -->
 <p align="center">
-  <video controls width="900" src="https://raw.githubusercontent.com/sai-pa416/sai-pa416/main/ONEPIECE.mp4"></video>
+  <img src="assets/banner.svg" alt="One Piece banner" width="900"/>
 </p>
 
 # sai-pa416
